@@ -1,0 +1,4 @@
+example:
+  property: I am dev 2222222222222
+server:
+  port: 10011

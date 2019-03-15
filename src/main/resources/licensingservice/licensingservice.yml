@@ -1,0 +1,20 @@
+example:
+  property: I am default
+server:
+  port: 10010
+spring:
+   jpa:
+     database: POSTGRESQL
+     show-sql: true
+     properties:
+      hibernate:
+        temp:
+            use_jdbc_metadata_defaults: false
+   datasource:
+     driver-class-name: org.postgresql.Driver
+     platform: postgresql
+     url: jdbc:postgresql://localhost:5432/postgres2
+     username: postgres
+     password: root
+
+

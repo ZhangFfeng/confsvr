@@ -1,0 +1,4 @@
+example:
+  property: I am production
+server:
+  port: 10012

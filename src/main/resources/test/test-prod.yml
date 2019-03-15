@@ -1,0 +1,4 @@
+server:
+  port: 9993
+example:
+  property: I am test prod 测试
